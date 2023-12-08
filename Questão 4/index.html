@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Questão 4</title>
+</head>
+<body>
+    <h1>Reajuste Salarial</h1>
+
+    <label for="salarioAtual">Digite o salário mensal atual:</label>
+    <input type="number" id="salarioAtual" placeholder="Insira o salário atual" required>
+
+    <label for="percentualReajuste">Digite o percentual de reajuste:</label>
+    <input type="number" id="percentualReajuste" placeholder="Insira o percentual de reajuste" required>
+
+    <button onclick="calcularNovoSalario()">Calcular Novo Salário</button>
+
+    <p id="resultado"></p>
+    <script src="script.js"></script> 
+</body>
+</html>
